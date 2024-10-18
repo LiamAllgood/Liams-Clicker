@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M.A.I.H</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+</head>
+<header>
+    <div class="top-part">
+        <h1>Make Arnie Infinitly Happy</h1>
+        <p>Arnold Schwarzenegger is a man whos Happiness knows no bounds, as shown in the glorious photo below, but every now and then, just like everyone, Arnie gets down. Its your job to make him happy again. </p>
+        <p>Click on him to give him a crisp high five!</p>
+    </div>
+</header>
+<main>
+    <div class="main-part">
+        <button id="gimme5btn"> <img src="hand.PNG" width="500px" alt="Arnold Schwarzenegger holding his hand up for a high five"/><audio src="slap-237622.mp3"id="high5"></audio></button>
+        <button id="mute-btn">mute</button>
+        <p class="hap">Arnie's happiness: <span id="happiness-display">0</span>%</p>
+        <p>Arnie's idle happiness growth rate: <span id="aihgr-display">0</span>% per second</p>
+    </div>
+    <div class="upgrades">
+        <audio src="upgrade-143022.mp3"id="upgrade"></audio>
+        <audio src="prestige.mp3"id="prestigesound"></audio>
+        <audio src="not-enough.mp3"id="notEnough"></audio>
+        <p>
+            <button id="yt-btn">Put YouTube on for him</button> <span id="ytreqhap-display">100</span> happiness
+        </p>
+        <p>
+            <button id="jc-btn">give him a juice carton</button> <span id="jcreqhap-display">1000</span> happiness
+        </p>
+        <P>
+            <button id="cbm-btn"> give him your clothes, your boots, and your motorcycle</button> <span id="cbmreqhap-display">10,000</span> happiness
+        </P>
+        <p>
+            <button id="gttc-btn"> get him to the choppa!!!!</button> <span id="gttcreqhap-display">100,000</span> happiness
+        </p>
+    </div>
+</main>
+<footer>
+    <div class="bottom-part">
+        <p>
+            <button id="p-btn"> Prestige</button> <span id="preqhap-display">1,000,000</span> happiness</p>
+    </div>
+</footer>
+</body>
+</html>
